@@ -20,3 +20,6 @@ deploy:
 	#deploy goes here
 		
 all: install lint test format deploy
+
+install-tensorflow:
+	pip install tensorflow
